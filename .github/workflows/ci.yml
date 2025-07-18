@@ -20,7 +20,7 @@ jobs:
           distribution: 'temurin'
 
       - name: 🛠️ Build project
-        run: mvn clean install
+        run: mvn clean install          
 
       - name: Build & push Docker image
         uses: mr-smithers-excellent/docker-build-push@v5
