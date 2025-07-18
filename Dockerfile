@@ -1,4 +1,4 @@
 FROM openjdk:26-slim-bullseye
-COPY target/p2-0.0.1-SNAPSHOT.jar app.jar
+COPY target/pipline.jar pipline.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","/app.jar"]
+ENTRYPOINT ["java","-jar","/pipline.jar"]
